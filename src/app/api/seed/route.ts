@@ -160,7 +160,7 @@ export async function POST() {
         console.log('🗑️ Cleared existing experts');
 
         // Insert sample experts with embeddings
-        const expertsWithEmbeddings: Expert[] = [];
+        const expertsWithEmbeddings: any[] = [];
 
         for (const expert of SAMPLE_EXPERTS) {
             console.log(`📝 Generating embedding for ${expert.name}...`);
