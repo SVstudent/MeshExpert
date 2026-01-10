@@ -1,0 +1,33 @@
+# Project: Quantum Healthcare Security Overhaul
+
+## Project Overview
+We are initiating a major upgrade of our patient data security systems to prepare for quantum-computing threats. This project requires a multidisciplinary team of experts who can bridge the gap between healthcare compliance, cryptography, and advanced systems engineering.
+
+## Required Team & Identified Candidates
+
+### 1. Dr. Elena Varma
+**Title:** Principal Security Architect (Quantum-Ready Systems)
+**Bio:** Dr. Varma is a world-renowned specialist in post-quantum cryptography with over 15 years of experience in secured systems design. She previously led the security architecture team at MedData Systems and has authored several whitepapers on lattice-based cryptography in clinical settings.
+**Skills:**
+- Post-Quantum Cryptography (Expert, 10 years)
+- Healthcare Compliance / HIPAA (Senior, 8 years)
+- Systems Architecture (Senior, 15 years)
+
+### 2. Marcus Thorne
+**Title:** Senior DevOps & Cloud Infrastructure Lead
+**Bio:** Marcus has spent the last decade building high-availability infrastructure for fintech and healthtech startups. He is a certified Kubernetes administrator and specializes in zero-trust networking and automated compliance auditing in AWS and GCP environments.
+**Skills:**
+- Kubernetes / EKS (Senior, 7 years)
+- AWS Infrastructure (Expert, 10 years)
+- Terraform / IaC (Senior, 6 years)
+
+### 3. Sarah Chen
+**Title:** Lead Data Privacy Officer & Compliance Specialist
+**Bio:** Sarah bridges the gap between technical implementation and legal regulatory frameworks. She has successfully led three major healthcare organizations through international GDPR and SOC2 Type II certifications. Her focus is on the human element of security and data residency policies.
+**Skills:**
+- HIPAA / SOC2 / GDPR (Expert, 12 years)
+- Data Privacy Policy (Senior, 9 years)
+- Risk Management (Senior, 10 years)
+
+## Assignment
+This team will collaborate to redesign the "Nexus Patient Portal" starting March 1st.
