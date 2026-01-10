@@ -1,12 +1,12 @@
 # 🌌 ExpertMesh: Agentic Skill Orchestration
 
-> **Winning the War for Talent with Multi-Agent Intelligence & MongoDB Atlas.**
+> **Winning Talent with Multi-Agent Intelligence & MongoDB Atlas.**
 
 ExpertMesh is a high-fidelity platform designed to discover, extract, and orchestrate expert talent. Whether you're searching through established professionals or extracting "hidden gems" from unformatted project briefs, ExpertMesh uses a collaborative multi-agent architecture to match the right mind to the right task.
 
 ---
 
-## 🛠️ Performance-Driven Tech Stack
+## Performance-Driven Tech Stack
 
 Built for the **Cerebral Valley: Agentic Orchestration & Collaboration Hackathon**, leveraging cutting-edge infrastructure:
 
@@ -20,18 +20,18 @@ Built for the **Cerebral Valley: Agentic Orchestration & Collaboration Hackathon
 
 ## 🚀 Key Features
 
-### 1. 🔍 Discovery Mode (Intelligent RAG)
+### 1. Discovery Mode (Intelligent RAG)
 Traditional keyword search is dead. ExpertMesh uses **Vector Retrieval** to understand intent.
 - **Multi-Agent Consensus**: 5 specialized agents (Analyst, Scout, Verifier, Recommender, Orchestrator) collaborate live to rank and justify every match.
 - **Deep Insights**: Don't just see a name; see *why* the AI chose them based on your specific project nuances.
 
-### 2. 📄 Extraction Mode (Document to Expert)
+### 2. Extraction Mode (Document to Expert)
 Have a project brief but no team? 
 - Drop a **PDF** or **TXT** file into the extraction engine.
 - ExpertMesh parses requirements and uses AI to **synthesize "Synthetic Experts"**—ideal profiles who *should* exist for your project.
 - These experts are automatically vectorized and stored in your Atlas collection.
 
-### 3. 🎨 MeshBoard (Agentic Whiteboard)
+### 3. MeshBoard (Agentic Whiteboard)
 A full-screen, zoomable canvas where you can:
 - Drag & Drop experts from your global "Ally Pool."
 - Create **Project Containers** that automatically "envelop" experts near them.
@@ -39,7 +39,7 @@ A full-screen, zoomable canvas where you can:
 
 ---
 
-## 🍃 Powered by MongoDB Atlas
+##  Powered by MongoDB Atlas
 
 We utilize MongoDB as more than just a database; it is the **backbone of our agentic memory**:
 
@@ -51,7 +51,7 @@ We utilize MongoDB as more than just a database; it is the **backbone of our age
 
 ---
 
-## 🧪 Try it Yourself
+## Try it Yourself
 
 ### 1. Setup Environment
 Create a `.env.local` file with the following:
@@ -73,7 +73,7 @@ Download our sample project brief and drop it into **Extraction Mode**:
 
 ---
 
-## 🦾 The Agentic Architecture
+## The Agentic Architecture
 
 ExpertMesh runs a "Meeting of the Minds" for every query:
 1.  **Analyst**: Breaks down the prompt into raw technical requirements.
@@ -84,4 +84,7 @@ ExpertMesh runs a "Meeting of the Minds" for every query:
 
 ---
 
-*Built with ❤️ for the MongoDB Hacker House.*
+*Built with ❤️ for the MongoDB Agentic Orchestration Hackathon.*
+A
+By Sathvik Vempati: --> vempati.honey@gmail.com; 510-516-1323
+MIT LICENSE
