@@ -2,7 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getDb, COLLECTIONS } from '@/lib/mongodb';
 import { chat } from '@/lib/fireworks';
 import { generateExpertEmbedding } from '@/lib/voyage';
-import { PDFParse } from 'pdf-parse';
+
+// Lazy load pdf-parse inside handler
 
 export async function POST(request: NextRequest) {
     try {
@@ -18,10 +19,10 @@ export async function POST(request: NextRequest) {
         let text = '';
 
         if (file.name.endsWith('.pdf')) {
-            const parser = new PDFParse({ data: buffer });
-            const data = await parser.getText();
+            // eslint-disable-next-line @typescript-eslint/no-require-imports
+            const pdf = require('pdf-parse');
+            const data = await pdf(buffer);
             text = data.text;
-            await parser.destroy();
         } else {
             text = buffer.toString('utf-8');
         }
@@ -106,7 +107,7 @@ Match as much detail as possible from the text.`;
             processedExperts.push({
                 expert: {
                     ...expert,
-                    _id: result.insertedId.toString()
+                    _id: result.insertedId.toString() as string
                 },
                 matchScore: 1.0,
                 reasoning: ['Generated from uploaded document'],
