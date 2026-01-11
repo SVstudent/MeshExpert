@@ -16,6 +16,7 @@ Built for the **Cerebral Valley: Agentic Orchestration & Collaboration Hackathon
 - **Frontend**: Next.js 15 (App Router) + Framer Motion (Generative UI)
 - **Integration**: pdf-parse (Document Extraction Engine)
 
+YOU CAN VIEW THE APP HERE, Deployed on Vercel: https://expertmesh.vercel.app/
 ---
 
 ## 🚀 Key Features
